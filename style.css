@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    overflow-x: hidden;
+    max-width: 100%;    
+}
+
+
+
+header h1{
+    font-size: 60px;
+}
+
+.animation{
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.paper-plane{
+    height: 70px;
+    top: 50%;
+    left: 0;
+    position: absolute;
+}
+
+.footer{
+    opacity: 0;
+}
+.footer.show{
+    opacity: 1;
+}
+
+.imageWish{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.imageWish p{
+    margin-bottom: 5vh;
+    font-family: 'Square Peg', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+@keyframes blink {
+    30%{
+        opacity: 0;
+    }  
+    80%{
+        opacity: .8;
+    }
+ 
+}
+
+.Scroll-down{
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: turquoise;
+    animation: blink 1s linear;
+    animation-duration: 1.5s;
+    animation-iteration-count: 5;
+    margin: 90px 0 ;
+}
+.summa{
+    margin: 80px 80px;
+}
